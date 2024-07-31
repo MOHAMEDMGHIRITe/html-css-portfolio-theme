@@ -1,0 +1,1579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+html{
+ font-family: "Josefin Sans" , sans-serif;
+ background-color: rgb(0, 0, 0);
+}
+
+/* //////// header /////// */
+/* //////// header /////// */
+/* //////// header /////// */
+
+header{
+    position: absolute;
+    background:linear-gradient(80deg, rgb(0, 0, 0) , rgb(58, 58, 58) ) ;
+    width: 90%;
+    position: fixed;
+    box-shadow: 0 6px 10px 0 rgba(83, 83, 83, 0.549), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
+    z-index: 1111;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    margin-left: 50px;
+    border-radius: 12px 12px;   
+}
+.logo{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+
+.navigation  a{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: 19px;
+   padding: 16px;
+}
+.navigation  a:hover{
+    color: rgb(254, 0, 0);
+}
+
+
+/* //////// main /////// */
+/* //////// main /////// */
+/* //////// main /////// */
+
+.main{
+    background:linear-gradient(90deg, rgb(0, 0, 0) , rgba(65, 65, 65, 0.316) ) ;
+    height: 570px;
+    margin-top: -10px;
+    z-index: -60;
+}
+
+
+section{
+    padding: 200px 70px;
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 180px;
+
+}
+
+section h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 13px;
+
+}
+
+#name{
+    font-weight: 1200;
+    font-size: 46px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.836) 0%, rgba(161, 39, 39, 0.184) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(255, 255, 255) 52%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%);
+    /* you can change the colors based on your preference */
+    background-clip: text;
+    /*add this line, it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text;
+    /* add this line, for browsers compatibility */
+    -webkit-text-fill-color: transparent;
+}
+section h2{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-bottom: 24px;
+}
+#circle
+{
+    position: absolute;
+    width: 328px;
+    height: 125px;
+    background:linear-gradient(100deg, rgba(50, 50, 50, 0.596) , rgb(0, 0, 0) ) ;
+    z-index: 10;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.111), 0 6px 20px 0 rgba(0, 0, 0, 0.495);
+    margin-left: 55% ;
+    border-radius: 20px;
+    margin-top: -8%;  
+    transition:  width , .6s;
+
+}
+
+#circle:hover{
+    width: 333px;
+    height: 136px;
+}
+
+#circle h3{
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.836) 0%, rgba(254, 254, 254, 0.204) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(159, 32, 32) 52%, rgb(159, 35, 35) 60%, rgb(198, 18, 18) 61%);
+    /* you can change the colors based on your preference */
+    background-clip: text;
+    /*add this line, it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text;
+    /* add this line, for browsers compatibility */
+    -webkit-text-fill-color: transparent;
+    padding-top: 4px;
+    line-height: 1.5em;
+    padding-left: 12px;
+
+}
+
+#circle1{
+    position: absolute;
+    background:linear-gradient(100deg, rgba(50, 50, 50, 0.596) , rgb(0, 0, 0) ) ;
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.345), 0 6px 20px 0 rgba(255, 255, 255, 0.499);
+    width: 140px;
+    height: 140px;
+    margin-top: -20%;
+    margin-left: 62% ;
+}
+
+#circle1 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+#square1{
+    position: absolute;
+    width: 148px;
+    height: 128px;
+    background:linear-gradient(100deg, rgba(50, 50, 50, 0.596) , rgb(0, 0, 0) ) ;
+    z-index: 10;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.347), 0 6px 20px 0 rgba(0, 0, 0, 0.495);
+    margin-left: 55% ;
+    border-radius: 20px;
+    margin-top: 5%;
+    transition:  width , .6s;
+}
+
+#square1:hover{
+    width: 153px;
+    height: 133px;
+}
+
+#square1 h1{
+    font-weight: 1200;
+    font-size: 40px;
+    padding-left: 21px;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.836) 0%, rgba(254, 254, 254, 0.204) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(159, 32, 32) 52%, rgb(159, 35, 35) 60%, rgb(198, 18, 18) 61%);
+    /* you can change the colors based on your preference */
+    background-clip: text;
+    /*add this line, it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text;
+    /* add this line, for browsers compatibility */
+    -webkit-text-fill-color: transparent;
+
+}
+
+#square1 h3{
+    font-weight: 1200;
+    font-size: 26px;
+    padding-left: 11px;
+    padding-top: 5px;
+    color: white;
+}
+#square12{
+    position: absolute;
+    width: 148px;
+    height: 128px;
+    background:linear-gradient(100deg, rgba(50, 50, 50, 0.596) , rgb(0, 0, 0) ) ;
+    z-index: 10;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.43), 0 6px 20px 0 rgba(0, 0, 0, 0.495);
+    margin-left: 69% ;
+    border-radius: 20px;
+    margin-top: 5%;
+    transition:  width , .6s;
+}
+#square12:hover{
+    width: 153px;
+    height: 133px;
+}
+
+#square12 h1{
+    font-weight: 1200;
+    font-size: 40px;
+    padding-left: 21px;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.836) 0%, rgba(254, 254, 254, 0.204) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(159, 32, 32) 52%, rgb(159, 35, 35) 60%, rgb(198, 18, 18) 61%);
+    /* you can change the colors based on your preference */
+    background-clip: text;
+    /*add this line, it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text;
+    /* add this line, for browsers compatibility */
+    -webkit-text-fill-color: transparent;
+}
+#square12 h3{
+    font-weight: 1200;
+    font-size: 30px;
+    padding-left: 25px;
+    color: white;
+
+}
+
+#a{
+    background:linear-gradient(100deg, rgba(160, 160, 160, 0.596) , rgb(0, 0, 0) ) ;
+    border-radius: 3px ;   
+     box-shadow: 0 4px 8px 0 rgba(138, 137, 137, 0.341), 0 6px 20px 0 rgba(0, 0, 0, 0.379);
+    text-decoration: none;
+    font-weight: 820;
+    color: rgb(255, 0, 0);
+    padding: 10px; 
+    transition: background-color .7s;
+}
+
+#a:hover{
+    background:linear-gradient(100deg, black , rgba(160, 160, 160, 0.596) ) ;
+    
+}
+
+.socialicons {
+    position: relative;
+    display: flex; 
+    align-items: center;
+}
+
+.socialicons a i {
+    display: flex; 
+    align-items: center;
+    margin-left: 18px;
+}
+
+#g i{ 
+    position: absolute;
+    display: flex; 
+    align-items: center;
+    padding-top:23px ;
+    margin-left: 20px;
+    transition: width .4s;
+    font-size: 20px;
+    transition: all , .4s;
+    color: rgb(255, 255, 255);
+
+}
+
+#g i:hover{
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+#f i{ 
+    position: absolute;
+    display: flex; 
+    align-items: center;
+    padding-top:23px ;
+    margin-left: 60px;
+    font-size: 20px;
+    transition: all , .4s;
+    color: rgb(255, 255, 255);
+
+}
+
+#f i:hover{
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+
+}
+
+#l i{ 
+    position: absolute;
+    display: flex; 
+    align-items: center;
+    padding-top:23px ;
+    transition: width .4s;
+    margin-left: 100px;
+    font-size: 20px;
+    transition: all , .4s;
+    color: rgb(255, 255, 255);
+
+}
+
+#l i:hover{
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+
+}
+
+#bigimage{
+    position: absolute;
+    width: 500px; 
+    margin-left: 570px;
+    margin-bottom: 70px; 
+}
+
+/* //////// about /////// */
+/* //////// about /////// */
+/* //////// about /////// */
+
+
+.about{
+
+    position: relative;
+    width: 100%;
+}
+
+.about h1{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 12;
+    margin-left: -11% ;
+    margin-top: -18.64%;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.981) 0%, rgba(193, 30, 30, 0.581) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(255, 255, 255) 52%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#line{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 100%;
+    height: 5px;
+    z-index: 11;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-left: -14.31% ;
+    margin-top: -17.44%;
+    transform: rotate(4deg);
+
+}
+
+#line1{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 34.52%;
+    height: 5px;
+    z-index: 11;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-left: 14.31% ;
+    margin-top: -0.3%;
+    transform: rotate(101deg);
+}
+
+#line2{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 7.8%;
+    height: 5px;
+    z-index: 11;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-left: 28.36% ;
+    margin-top: 13.74%;
+    transform: rotate(45deg);
+}
+
+.aboutmetext .background img{
+   position: absolute;
+   height: 400px;
+   margin-left:100px;
+   z-index: 10;
+}
+
+.aboutmetext{
+   position: absolute;
+   background:linear-gradient(90deg, rgb(0, 0, 0) , rgba(65, 65, 65, 0.316) ) ;
+   width: 100%;
+   height: 400px;
+   margin-left: -14.31% ;
+   margin-top: -17.44%;
+}
+
+#circle2
+{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background:linear-gradient(110deg, rgb(255, 255, 255),rgb(255, 255, 255) ) ;
+    z-index: 10;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.549), 0 6px 20px 0 rgba(31, 31, 31, 0.714);
+    border-radius: 50%;
+    margin-left: 61% ;
+    margin-top: 10%;
+
+}
+
+#square2
+{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background:linear-gradient(100deg, rgb(255, 255, 255),rgb(255, 255, 255) ) ;
+    z-index: 10;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.549), 0 6px 20px 0 rgba(31, 31, 31, 0.714);
+    border-radius: 10%;
+    transform: rotate(20deg);
+    margin-left: 77% ;
+    margin-top: 22%;
+
+}
+
+#card{
+    position: absolute;
+    width: 198px;
+    height: 308px;
+    background:linear-gradient(100deg, rgba(50, 50, 50, 0.596) , rgb(0, 0, 0) ) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);  
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+    z-index: 10;
+    border-radius: 20px;
+    margin-left: 65% ;
+    margin-top: 5%;
+    transition: width , .7s;
+}
+
+#card:hover{
+    width: 208px;
+    height: 318px;
+}
+
+#card h3{
+    color: rgb(255, 0, 0);
+    padding: 10px ;
+    line-height: 17px;
+    padding-top: 18px;
+    font-size: 22px;
+}
+
+#card h4{
+    color: white;
+    padding: 12px ;
+    line-height: 30px;
+}
+
+
+/* //////// services /////// */
+/* //////// services /////// */
+/* //////// services /////// */
+
+
+
+.services{
+    position: relative;
+    background:linear-gradient(90deg, rgb(0, 0, 0) , rgba(65, 65, 65, 0.316) ) ;
+    width: 100%;
+    height: 400px;
+    margin-top: -1.58%;
+
+}
+.services h2{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 12;
+    margin-left: -11% ;
+    margin-top: -12.64%;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.981) 0%, rgba(193, 30, 30, 0.581) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(255, 255, 255) 52%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+#line3{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 100%;
+    height: 5px;
+    z-index: 131;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-left: -14.31% ;
+    margin-top: -13.64%;
+}
+
+#line4{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 29.5%;
+    height: 5px;
+    z-index: 10;
+    margin-left: 37.78% ;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-top: 0.3%;
+    transform: rotate(70deg);
+}
+#line5{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 28%;
+    height: 5px;
+    z-index: 10;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-left: 8.78% ;
+    margin-top: 0.2%;
+    transform: rotate(80deg);
+}
+
+
+.webde{
+    position: absolute;
+    width: 200px;
+    height: 196px;
+    background: linear-gradient(rgba(0, 0, 0, 0.697),rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);   
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.347), 0 6px 20px 0 rgba(255, 255, 255, 0.325);
+    z-index: 10;
+    border-radius: 20px;
+    margin-top: -4.58%;
+ }
+
+
+.webde img{
+    position: absolute;
+    width: 98px;
+    height: 90px;
+    margin-top: -21%;
+    margin-left: 10px;
+}
+
+.webde h3{
+    font-weight: 1200;
+    font-size: 20px;
+    padding-left: 21px;
+    color: white;
+    margin: 6px;
+    padding-top: 56px;
+    padding-left: 10px;
+}
+
+.webde p {
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+    line-height: 1.5;
+}
+
+.appdev{
+    position: absolute;
+    width: 200px;
+    height: 196px;
+    background: linear-gradient(rgba(0, 0, 0, 0.697),rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);    
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.347), 0 6px 20px 0 rgba(255, 255, 255, 0.325);
+    z-index: 10;
+    border-radius: 20px;
+    margin-top: -4.58%;
+    margin-left: 390px;
+}
+.appdev:hover{
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.347), 0 6px 20px 0 rgba(255, 255, 255, 0.325);
+}
+
+.appdev h3{
+    font-weight: 1200;
+    font-size: 20px;
+    padding-left: 21px;
+    color: white;
+    margin: 6px;
+    padding-top: 56px;
+    padding-left: 10px;
+}
+
+
+.appdev p {
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+    line-height: 1.5;
+}
+#circle3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    border: 6px solid;
+    margin-left: -45px;
+    margin-top: 30px;
+}
+
+#square3{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10%;
+    border-end-end-radius: 100px;
+    margin-left: 155px;
+    margin-top: -66px;
+    transform: rotate(120deg);
+
+}
+
+#circle4{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30%;
+    margin-left: 365px;
+    margin-top: 60px;
+    transform: rotate(120deg);
+}
+
+#square4{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 20%;
+    border-end-end-radius: 160px;
+    margin-left: 505px;
+    margin-top: -64px;
+    transform: rotate(30deg);
+
+}
+
+#square5{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 755px;
+    margin-top: -24px;
+    transform: rotate(30deg);
+
+}
+#circle5{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 7%;
+    margin-left: 935px;
+    margin-top: 60px;
+    transform: rotate(120deg);
+}
+.appdev img{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    margin-top: -20%;
+    margin-left: 10px;
+}
+
+.desing{
+    position: absolute;
+    width: 198px;
+    height: 196px;
+    background: linear-gradient(rgba(0, 0, 0, 0.697),rgba(0, 0, 0, 0.555));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);  
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.347), 0 6px 20px 0 rgba(255, 255, 255, 0.325);
+    z-index: 10;
+    border-radius: 20px;
+    margin-top: -4.58%;
+    margin-left: 780px;
+}
+
+
+.desing img{
+    position: absolute;
+    width: 60px;
+    height: 68px;
+    margin-top: -18.58%;
+    margin-left: 26px;
+}
+
+.desing h3{
+    font-weight: 1200;
+    font-size: 20px;
+    padding-left: 21px;
+    color: white;
+    margin: 6px;
+    padding-top: 56px;
+    padding-left: 10px;
+}
+.desing p {
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+    line-height: 1.5;
+}
+
+
+/* //////// skills /////// */
+/* //////// skills /////// */
+/* //////// skills /////// */
+
+
+.skills{
+    position: relative;
+    background:linear-gradient(90deg, rgb(0, 0, 0) , rgba(65, 65, 65, 0.316) ) ;
+    width: 100%;
+    height: 420px;
+    margin-top: 0.2px;
+}
+
+#line6{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 100%;
+    height: 5px;
+    z-index: 131;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-left: -14.31% ;
+    margin-top: -17.64%;
+}
+
+#line7{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 448px;
+    height: 5px;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+    z-index: 1;
+    margin-left: 7% ;
+    margin-top: -4px;
+    transform: rotate(100deg);
+}
+
+#line8{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 444px;
+    height: 5px;
+    z-index: 1;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+
+    margin-left: 35% ;
+    margin-top: -2px;
+    transform: rotate(100deg);
+}
+ 
+
+
+.skills h2{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 12;
+    margin-left: -11% ;
+    margin-top: -16%;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.981) 0%, rgba(193, 30, 30, 0.581) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(255, 255, 255) 52%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#ccsbackground{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: -140px;
+    border-radius: 50%;
+    border: 4px solid rgb(80, 174, 242);
+    border-right: 4px solid black;
+    z-index: 100;
+}
+
+#cssslider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;
+    margin-top: -125px;
+    margin-left: 20px;
+
+    border-radius: 10px;
+    border: 3px solid rgb(80, 174, 242);
+    z-index: 5;
+}
+
+#sliderbackcss{ 
+    position: absolute;
+    background-color: rgb(91, 176, 236);
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+
+#slidercss{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 170px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+#css{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 17px;
+    font-size: 50px;
+    z-index: 11;
+
+}
+
+#htmlback{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 102, 0);
+    border-right: 4px solid black;
+    z-index: 50;
+
+}
+
+#htmllider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 102, 0);
+    z-index: 15;
+}
+
+
+#sliderhtml{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 180px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    z-index: 33;
+}
+
+#sliderbackhtml{
+    position: absolute;
+    background-color: rgb(255, 102, 0);
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+
+}
+#html{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 17px;
+    font-size: 50px;
+}
+
+
+#javascriptback{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: -140px;
+    margin-left: 344px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 225, 0);
+    border-right: 4px solid black;
+    z-index: 100;
+}
+#javascriplider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;
+    margin-top: -125px;
+    margin-left: 380px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 0);
+    z-index: 5;
+}
+#sliderbackjs{
+    position: absolute;
+    background-color: rgb(255, 255, 0);
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+}
+#sliderjs{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 190px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#javascript{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 14px;
+    font-size: 50px;
+}
+
+#phpbackground{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: 345px;
+    border-radius: 50%;
+    border: 4px solid rgb(188, 22, 253);
+    border-right: 4px solid black;
+    z-index: 50;
+}
+
+#phpslider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 380px;
+    border-radius: 10px;
+    border: 3px solid rgb(188, 22, 253);
+    z-index: 5;
+}
+
+#sliderbackphp{
+    position: absolute;
+    background-color: rgb(188, 22, 253);
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+#sliderphp{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 140px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#php{
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 50px;
+}
+
+#reactbackground{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: -140px;
+    margin-left: 684px;
+    border-radius: 50%;
+    border: 4px solid rgb(93, 128, 255);
+    border-right: 4px solid black;
+    z-index: 100;
+}
+
+
+#reactslider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;
+    margin-top: -125px;
+    margin-left: 720px;
+    border-radius: 10px;
+    border:  3px solid rgb(93, 128, 255);
+    z-index: 5;
+}
+
+#reactbackslider{
+    position: absolute;
+    background-color: rgb(93, 128, 255);
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+#sliderreact{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 110px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#react{
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+#angularback{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: 684px;
+    border-radius: 50%;
+    border: 4px solid red;
+    border-right: 4px solid black;
+    z-index: 50;
+}
+
+
+
+#angularslider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;  
+    border-radius: 10px;
+    border:  3px solid red;
+    margin-top: 5px;
+    margin-left: 720px ;
+  
+}
+
+#sliderbackangular{
+    position: absolute;
+    background-color: rgb(249, 0, 0);
+
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+#sliderangular{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 190px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+#angular{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 50px;
+    z-index: 60;
+}
+
+#ilsbackground{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: 120px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 115, 0);
+    border-right: 4px solid black;
+    z-index: 50;
+}
+
+#sliderbackils{
+    position: absolute;
+    background-color: rgb(255, 115, 0);
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+#ilsslider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;  
+    border-radius: 10px;
+    border:  3px solid rgb(255, 115, 0) ;
+    margin-top: 135px;
+    margin-left: 20px ;
+}
+
+#sliderils{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 150px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#ils{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#photoSbackground{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 80px;
+    height: 80px;
+    margin-top: 120px;
+    margin-left: 347px;
+    border-radius: 50%;
+    border: 4px solid rgb(44, 89, 255);
+    border-right: 4px solid rgb(0, 0, 0);
+    z-index: 50;
+}
+
+#photoSslider{
+    position: absolute;
+    background:linear-gradient(100deg, rgb(50, 50, 50) , rgb(0, 0, 0) ) ;
+    width: 203px;
+    height: 50px;  
+    border-radius: 10px;
+    border: 3px solid rgb(44, 89, 255);
+    margin-top: 135px;
+    margin-left: 380px;
+}
+
+#sliderbackphoto{
+    position: absolute;
+    background-color: rgb(44, 89, 255);
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+#sliderphoto{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0) ) ;
+    width: 190px;
+    height: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#photoS{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+
+
+#line9{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 100%;
+    height: 5px;
+    z-index: 131;
+    margin-left: -14.31% ;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+    margin-top: -16%;
+}
+
+
+/* //////// projects /////// */
+/* //////// projects /////// */
+/* //////// projects /////// */
+
+
+.projects{
+    position: relative;
+    background:linear-gradient(90deg, rgb(0, 0, 0) , rgba(65, 65, 65, 0.316) ) ;
+    width: 100%;
+    height: 680px;
+    margin-top: 0px;
+}
+
+.projects h2{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 12;
+    margin-left: -11% ;
+    margin-top: -15%;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.981) 0%, rgba(193, 30, 30, 0.581) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(255, 255, 255) 52%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#desingprojects{
+    position: absolute;
+    background-size: cover;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.51), 0 6px 20px 0 rgba(255, 254, 254, 0.714);
+    width: 450px;
+    height: 260px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin-top: -100px;
+    margin-left: -50px;
+    animation: backgrounds1 50s linear infinite;
+    transition: all .1s;
+}
+
+
+
+
+@keyframes backgrounds1 {
+    0%   { background-image: url(ux2.png);}
+    13%{ background-image: url(ux2.png);}
+    25%  { background-image: url(ux9.png);}
+    37% {background-image: url(ux9.png);}
+    50%  {background-image: url(ux4.png);}
+    75%{background-image: url(ux4.png);}
+    85%{background-image: url(ux7.png);}
+    100% {background-image: url(ux7.png);}
+  }
+
+  #DesDising{
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.351),rgba(0, 0, 0, 0.384));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);     
+     width: 100%;
+    height: 100px;
+    margin-top: 155px;
+    border-radius: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid white;
+    align-items: center;
+    opacity: 0;
+    transition: all , .5s linear;
+
+  }
+
+  #DesDising:hover{
+    opacity: 1;
+
+  }
+
+  #DesDising h3{
+
+        color: white;
+        padding-left: 80px;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+  
+
+  #Appprprojects{
+    position: absolute;
+    background-size: cover;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.51), 0 6px 20px 0 rgba(255, 255, 255, 0.714);
+    width: 450px;
+    height: 260px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin-top: -100px;
+    margin-left: 550px;
+    animation: appbackground 50s linear infinite;
+    transition: all .1s;
+}
+
+
+@keyframes appbackground {
+    
+    0%   { background-image: url(ux2.png);}
+    13%{ background-image: url(ux2.png);}
+    25%  { background-image: url(ux3.png);}
+    37% {background-image: url(ux3.png);}
+    50%  {background-image: url(ux4.png);}
+    75%{background-image: url(ux4.png);}
+    85%{background-image: url(ux5.png);}
+    100% {background-image: url(ux5.png);}
+   
+   
+  }
+  
+
+#Desapp{
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.351),rgba(0, 0, 0, 0.384));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);      
+    width: 100%;
+    height: 100px;
+    margin-top: 155px;
+    border-radius: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid white;
+    align-items: center;
+    opacity: 0;
+    transition: all , .5s linear;
+
+  }
+
+#Desapp:hover{
+    opacity: 1;
+
+}
+
+#Desapp h3{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+#projects1{
+    position: absolute;
+    background-size: cover;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.51), 0 6px 20px 0 rgba(255, 255, 255, 0.714);
+    width: 450px;
+    height: 260px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin-top: 200px;
+    margin-left: -50px;
+    animation: appbackgrounds 50s linear infinite;
+    transition: all .1s;
+}
+
+
+@keyframes appbackgrounds {
+    0%   { background-image: url(ux1.png);}
+    13%{ background-image: url(ux1.png);}
+    25%  { background-image: url(ux7.png);}
+    37% {background-image: url(ux7.png);}
+    50%  {background-image: url(ux4.png);}
+    75%{background-image: url(ux4.png);}
+    85%{background-image: url(ux6.png);}
+    100% {background-image: url(ux6.png);}
+  }
+  
+
+#project{
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.351),rgba(0, 0, 0, 0.384));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);      width: 100%;
+    height: 100px;
+    margin-top: 155px;
+    border-radius: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid white;
+    align-items: center;
+    opacity: 0;
+    transition: all , .5s linear;
+
+  }
+
+#project:hover{
+    opacity: 1;
+
+}
+
+#project h3{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+
+#text{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    padding-left: 570px;
+    padding-top: 192px;
+}
+
+/* //////// contact /////// */
+/* //////// contact /////// */
+/* //////// contact /////// */
+
+
+.contact{
+    position: relative;
+    background:linear-gradient(90deg, rgb(0, 0, 0) , rgba(65, 65, 65, 0.316) ) ;
+    width: 100%;
+    height: 480px;
+    margin-top: 0px;
+}
+
+#line10{
+    position: absolute;
+    background:linear-gradient(90deg, rgb(255, 255, 255) , rgb(255, 255, 255) ) ;
+    width: 100%;
+    height: 5px;
+    z-index: 131;
+    margin-left: -14.31% ;
+    box-shadow: 0 6px 10px 0 rgba(109, 109, 109, 0.549), 0 6px 20px 0 rgba(106, 106, 106, 0.714);
+    margin-top: -16%;
+}
+
+
+.contact h1{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 12;
+    margin-left: -6% ;
+    margin-top: 2%;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.981) 0%, rgba(193, 30, 30, 0.581) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(255, 255, 255) 52%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+
+.contact h2{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 12;
+    margin-left: -11% ;
+    margin-top: -15%;
+    background: linear-gradient(to right, rgba(250, 1, 1, 0.981) 0%, rgba(193, 30, 30, 0.581) 20%, rgb(255, 255, 255) 61%), linear-gradient(rgb(255, 255, 255) 52%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+#inputcard{
+    position:absolute ;
+    width: 420px;
+    height: 440px;
+    background: linear-gradient(rgba(32, 32, 32, 0.434),rgba(23, 23, 23, 0.379));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);  
+    box-shadow: 0 6px 10px 0 rgba(15, 11, 11, 0.51), 0 6px 20px 0 rgba(8, 1, 1, 0.714);
+    border-radius: 20px;
+    border: 1px solid white;
+
+    margin-top: -170px;
+    margin-left: 560px;
+}
+#input1{
+    position:absolute ;
+    width: 140px;
+    height: 40px;
+    margin: 20px;
+    margin-top: 40px;
+    border: 1px solid white;
+    outline: none;
+    background: linear-gradient(rgba(32, 32, 32, 0.434),rgba(23, 23, 23, 0.379));
+    border-radius: 15px;
+    box-shadow: 0 6px 10px 0 rgba(223, 223, 223, 0.51), 0 6px 20px 0 rgba(216, 216, 216, 0.714);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 16px;
+}
+
+#input2{
+    position:absolute ;
+    width: 220px;
+    height: 40px;
+    margin: 20px;
+    margin-left: 180px;
+    margin-top: 40px;
+    border: 1px solid white;
+    outline: none;
+    background: linear-gradient(rgba(32, 32, 32, 0.434),rgba(23, 23, 23, 0.379));
+   border-radius: 15px;
+   box-shadow: 0 6px 10px 0 rgba(223, 223, 223, 0.51), 0 6px 20px 0 rgba(216, 216, 216, 0.714);
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: 12px;
+   padding: 16px;
+   
+}
+
+
+#input3{
+    position:absolute ;
+    width: 380px;
+    height: 50px;
+    margin: 20px;
+    margin-top: 130px;
+    border: 1px solid white;
+    outline: none;
+    background: linear-gradient(rgba(32, 32, 32, 0.434),rgba(23, 23, 23, 0.379));
+   border-radius: 15px;
+   box-shadow: 0 6px 10px 0 rgba(223, 223, 223, 0.51), 0 6px 20px 0 rgba(216, 216, 216, 0.714);
+
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: 14px;
+   padding: 16px;
+
+}
+
+#input4{
+    position:absolute ;
+    width: 380px;
+    height: 200px;
+    margin: 20px;
+    margin-top: 220px;
+    border: 1px solid white;
+    outline: none;
+    background: linear-gradient(rgba(32, 32, 32, 0.434),rgba(23, 23, 23, 0.379));
+   border-radius: 20px;
+   box-shadow: 0 6px 10px 0 rgba(223, 223, 223, 0.51), 0 6px 20px 0 rgba(216, 216, 216, 0.714);
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: 15px;
+   padding-left: 16px;
+}
+
+#c1{
+    position:absolute ;
+    width: 200px;
+    height: 200px;
+  border-radius: 50%;
+    background-color: rgba(232, 232, 232, 0.864);
+    margin-left: 500px;
+    margin-top: -140px;
+    box-shadow: 0 6px 10px 0 rgba(15, 11, 11, 0.51), 0 6px 20px 0 rgba(8, 1, 1, 0.714);
+
+}
+
+#s1{
+    position:absolute ;
+    width: 200px;
+    height: 200px;
+  border-radius: 10%;
+    background-color: rgb(232, 232, 232);
+    margin-top: 40px;
+    margin-left: 800px;
+    transform: rotate(150deg);
+    box-shadow: 0 6px 10px 0 rgba(15, 11, 11, 0.51), 0 6px 20px 0 rgba(8, 1, 1, 0.714);
+
+}
+
+
+
